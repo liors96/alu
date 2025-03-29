@@ -1,0 +1,27 @@
+# Verilog simulation outputs
+*.vcd
+*.out
+*.exe
+
+# GTKWave save files
+*.sav
+
+# Compiled binary/object files
+*.o
+*.bin
+
+# Build directories (if used)
+build/
+sim/
+
+# VS Code settings (optional)
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Backup or swap files
+*~
+*.swp
+*.bak
