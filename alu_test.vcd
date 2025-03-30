@@ -1,5 +1,5 @@
 $date
-	Sat Mar 29 08:15:23 2025
+	Sat Mar 29 19:41:51 2025
 $end
 $version
 	Icarus Verilog
@@ -11,11 +11,11 @@ $scope module alu_tb $end
 $var wire 4 ! result [3:0] $end
 $var reg 4 " a [3:0] $end
 $var reg 4 # b [3:0] $end
-$var reg 2 $ sel [1:0] $end
+$var reg 3 $ sel [2:0] $end
 $scope module uut $end
 $var wire 4 % a [3:0] $end
 $var wire 4 & b [3:0] $end
-$var wire 2 ' sel [1:0] $end
+$var wire 3 ' sel [2:0] $end
 $var reg 4 ( result [3:0] $end
 $upscope $end
 $upscope $end
@@ -25,23 +25,23 @@ $dumpall
 $end
 #0
 $dumpvars
-b1000 (
+b111 (
 b0 '
-b11 &
-b101 %
+b1 &
+b110 %
 b0 $
-b11 #
-b101 "
-b1000 !
+b1 #
+b110 "
+b111 !
 $end
 #2
-b10 !
-b10 (
+b101 !
+b101 (
 b1 $
 b1 '
 #4
-b1 !
-b1 (
+b0 !
+b0 (
 b10 $
 b10 '
 #6
@@ -50,3 +50,14 @@ b111 (
 b11 $
 b11 '
 #8
+b100 $
+b100 '
+#10
+b0 !
+b0 (
+b101 $
+b101 '
+#12
+b110 $
+b110 '
+#14
