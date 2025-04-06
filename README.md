@@ -23,7 +23,7 @@ This project implements a simple **4-bit Arithmetic Logic Unit (ALU)** using Ver
 
 Here’s the ALU waveform showing all operations:
 
-![Waveform](images/waveform.png)
+![Waveform](images/alu_waveform.png)
 
 
 ______________________________________________________________________________________
